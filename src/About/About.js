@@ -35,8 +35,10 @@ function About() {
                 Projects
               </a>
             </div>
-            <div className="col text-center animated-border">
-              <img src={personalPic} alt="My Image" className="picture" />
+            <div className="col text-center">
+              <div className="animated-border">
+                <img src={personalPic} alt="Racheline Mouyana Picture" className="picture" />
+              </div>
             </div>
           </div>
         </div>

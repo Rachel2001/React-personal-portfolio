@@ -4,7 +4,7 @@
   background-position: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: white; /* Ensures text is readable on the background */
+  color: white; 
 }
 
 .social-media-icons {
@@ -16,7 +16,7 @@
 .social-media-icons i {
   font-size: 30px; 
   margin-right: 15px;
-  color: #DB1057;
+  color: black;
   padding-right: 15px;
 }
 
@@ -36,7 +36,7 @@
 .contact-form h2 {
   text-align: center;
   margin-bottom: 15px; 
-  color: #DB1057;
+  color: #f3bc77;
   font-size: 1.5rem; 
 }
 
@@ -45,7 +45,7 @@
   width: 100%;
   padding: 8px; 
   margin-bottom: 10px; 
-  border: 1px solid #DB1057;
+  border: 1px solid #f3bc77;
   border-radius: 5px; 
   background-color: #393e46;
   color: white; 
@@ -58,7 +58,7 @@
 .contact-form button {
   width: 100%;
   padding: 10px;
-  background-color: #DB1057;
+  background-color: #f3bc77;
   color: black;
   border: none;
   border-radius: 5px; 

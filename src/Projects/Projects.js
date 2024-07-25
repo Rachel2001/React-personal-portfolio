@@ -19,35 +19,40 @@ function Projects() {
             <div className="col-md-4 col-sm-12">
               <div className="project-item">
                 <div className="project-image-container">
-                  <img src={moviePic} alt="My Image" className="img-fluid" />
+                  <img
+                    src={moviePic}
+                    alt="Racheline Mouyana Project-1"
+                    className="project-image"
+                  />
                   <div className="project-overlay">
                     <p className="paragraph-with-icons">
-                      A web application for searching and browsing movies.
-                      <br />
-                      <span>
-                        <i className="fab fa-html5"></i>
-                        <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-bootstrap"></i>
-                        <i className="fab fa-js"></i>
-                      </span>
+                      Purpose: A web application for searching and browsing
+                      movies.
+                    </p>
+                    <p className="paragraph-with-icons">
+                      Technologies used: HTML, CSS, Bootstrap, and JavaScript.
                     </p>
                   </div>
                 </div>
-                <p className="project-name">Movie App </p>
-                <a
-                  href="https://github.com/Rachel2001/movie-website"
-                  target="_blank"
-                  className="project-button"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="https://movie-website-2c5e44.netlify.app/"
-                  target="_blank"
-                  className="project-button"
-                >
-                  Live Demo
-                </a>
+                <p className="project-name">Movie App</p>
+                <div className="project-buttons">
+                  <a
+                    href="https://github.com/Rachel2001/movie-website"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://movie-website-2c5e44.netlify.app/"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12">
@@ -55,36 +60,37 @@ function Projects() {
                 <div className="project-image-container">
                   <img
                     src={productLandingPage}
-                    alt="My Image"
-                    className="img-fluid"
+                    alt="Racheline Mouyana Project-2"
+                    className="project-image"
                   />
                   <div className="project-overlay">
                     <p className="paragraph-with-icons">
-                      A landing page for a restaurant.
-                      <br />
-                      <span>
-                        <i className="fab fa-html5"></i>
-                        <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-bootstrap"></i>
-                      </span>
+                      Purpose: A landing page for a restaurant.
+                    </p>
+                    <p className="paragraph-with-icons">
+                      Technologies used: HTML, CSS, Bootstrap.
                     </p>
                   </div>
                 </div>
-                <p className="project-name">Restaurant Landing Page </p>
-                <a
-                  href="https://github.com/Rachel2001/CODSOFT-Task-1"
-                  target="_blank"
-                  className="project-button"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="https://gilded-melba-51a459.netlify.app/"
-                  target="_blank"
-                  className="project-button"
-                >
-                  Live Demo
-                </a>
+                <p className="project-name">Restaurant Landing Page</p>
+                <div className="project-buttons">
+                  <a
+                    href="https://github.com/Rachel2001/CODSOFT-Task-1"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://gilded-melba-51a459.netlify.app/"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12">
@@ -92,36 +98,37 @@ function Projects() {
                 <div className="project-image-container">
                   <img
                     src={eCommerceApp}
-                    alt="My Image"
-                    className="img-fluid"
+                    alt="Racheline Mouyana Project-3"
+                    className="project-image"
                   />
                   <div className="project-overlay">
                     <p className="paragraph-with-icons">
-                      A app for farmers and consumers.
-                      <br />
-                      <span>
-                        <i className="fab fa-html5"></i>
-                        <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-bootstrap"></i>
-                      </span>
+                      Purpose: An app for farmers and consumers.
+                    </p>
+                    <p className="paragraph-with-icons">
+                      Technologies used: TypeScript, Tailwind and Vite.
                     </p>
                   </div>
                 </div>
                 <p className="project-name">E-Commerce App (Internship)</p>
-                <a
-                  href="https://github.com/InternPulse/farmdine-frontend"
-                  target="_blank"
-                  className="project-button"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="https://farmdine-frontend.vercel.app/"
-                  target="_blank"
-                  className="project-button"
-                >
-                  Live Demo
-                </a>
+                <div className="project-buttons">
+                  <a
+                    href="https://github.com/InternPulse/farmdine-frontend"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://farmdine-frontend.vercel.app/"
+                    target="_blank"
+                    className="project-button"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
