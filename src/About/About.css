@@ -1,0 +1,72 @@
+.background-container {
+  background: black;
+  color: white;
+  padding: 20px;
+  padding-bottom: 130px;
+}
+
+.container {
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+.projects {
+  padding: 10px;
+  color: black;
+  background-color: #f3bc77;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  height: 50px;
+}
+
+.picture {
+  height: auto;
+  width: auto;
+}
+
+@keyframes circularBorderAnimation {
+  0% {
+    border-width: 5px;
+    border-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.7);
+  }
+  50% {
+    border-width: 10px;
+    border-color: rgba(255, 255, 0, 0.7);
+    box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7);
+  }
+  100% {
+    border-width: 5px;
+    border-color: transparent;
+    box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.7);
+  }
+}
+
+.animated-border {
+  border: 5px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: circularBorderAnimation 2s infinite;
+  overflow: hidden;
+}
+
+.animated-border img {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .projects {
+    width: 100%;
+  }
+
+  .picture {
+    display: flex;
+  }
+}

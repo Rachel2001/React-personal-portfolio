@@ -1,0 +1,72 @@
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  background-image: url("../images/background-image1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 70px;
+  color: white;
+  padding-bottom: 190px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resume-button,
+.contact-button {
+  background-color: black; 
+  border: none;
+  color: #f3bc77;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 25px;
+}
+
+h2:after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 16px;
+  background-color: black;
+  animation: blink 0.7s steps(1, none) infinite alternate;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headings {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  .resume-button,
+  .contact-button {
+    margin: 10px 0;
+    margin-right: 0;
+  }
+}

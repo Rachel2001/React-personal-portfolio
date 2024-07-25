@@ -1,0 +1,42 @@
+.skills-container {
+    background-image: url('../images/background-image1.jpg');
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.technical-skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 15px;
+  color: #DB1057;
+  animation: slide-loop 20s infinite linear;
+}
+
+.technical-skill {
+  text-align: center;
+}
+
+.technical-skill i {
+  font-size: 48px;
+}
+
+.technical-skills {
+  padding-top: 8px; 
+}
+
+@keyframes slide-loop {
+  from { transform: translateX(calc(100% + 50px)); } 
+  to { transform: translateX(-100%); } 
+}
+
+@media (max-width: 768px) {
+  .technical-skill {
+    padding: 8px;
+  }
+}
